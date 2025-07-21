@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Gobierno y Funcionarios</title>
+<style>
+  :root {
+    --azul: rgb(38, 170, 255);
+    --amarillo: rgb(253, 217, 0);
+    --blanco: #fff;
+    --negro: #000;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--amarillo);
+    color: var(--negro);
+  }
+
+  .bandera {
+    height: 10px;
+    background: linear-gradient(to right, var(--azul) 33%, var(--blanco) 34% 66%, var(--amarillo) 67%);
+  }
+
+  header {
+    background-color: var(--azul);
+    color: var(--blanco);
+    text-align: center;
+    padding: 20px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  main {
+    padding: 25px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    border: 2px solid var(--negro);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    line-height: 1.6;
+  }
+
+  .cargo {
+    border: 1px solid var(--azul);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: var(--blanco);
+    border-left: 5px solid var(--azul);
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+  }
+
+  .titulo-cargo {
+    font-weight: bold;
+    color: var(--azul);
+  }
+
+  footer {
+    text-align: center;
+    margin: 25px;
+  }
+
+  .volver {
+    display: inline-block;
+    background-color: var(--azul);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    main {
+      padding: 15px;
+    }
+
+    .volver {
+      font-size: 0.95rem;
+      padding: 10px 16px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="bandera"></div>
+
+<header>
+  <h1>Gobierno y Funcionarios</h1>
+</header>
+
+<main>
+  <div class="cargo">
+    <span class="titulo-cargo">Partido gobernante:</span> Papa Partido
+  </div>
+
+  <div class="cargo">
+    <span class="titulo-cargo">Presidente:</span> Vicente
+  </div>
+
+  <div class="cargo">
+    <span class="titulo-cargo">Vicepresidente:</span> Gonzalo
+  </div>
+
+  <div class="cargo">
+    <span class="titulo-cargo">Senador:</span> Andy
+  </div>
+
+  <h2 style="color: var(--azul); margin-top:30px;">Senadores</h2>
+
+  <div class="cargo">
+    <span class="titulo-cargo">Máximo:</span> Partido la Comunista República Soviética
+  </div>
+
+  <div class="cargo">
+    <span class="titulo-cargo">Milanesa:</span> Unión Demócrata Republicana
+  </div>
+
+  <div class="cargo">
+    <span class="titulo-cargo">Lola:</span> Tato Para Todos
+  </div>
+
+  <div class="cargo">
+    <span class="titulo-cargo">Teseo:</span> Tesismo
+  </div>
+</main>
+
+<footer>
+  <a class="volver" href="index.html">Volver al menú principal</a>
+</footer>
+
+</body>
+</html>

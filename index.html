@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>La República</title>
+  <style>
+    :root {
+      --azul-bandera: rgb(38, 170, 255);
+      --amarillo-bandera: rgb(253, 217, 0);
+      --negro: #000;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--amarillo-bandera);
+      color: var(--azul-bandera);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: var(--azul-bandera);
+      padding: 30px 15px;
+      text-align: center;
+      color: var(--amarillo-bandera);
+    }
+
+    header img {
+      height: 70px;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    main {
+      flex-grow: 1;
+      padding: 50px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .top-sections, .bottom-sections {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .nav-box {
+      flex: 1 1 320px;
+      max-width: 400px;
+      min-height: 150px;
+      border: 3px solid var(--negro);
+      background-color: white;
+      color: var(--azul-bandera);
+      text-align: center;
+      padding: 35px 25px;
+      font-weight: bold;
+      font-size: 2rem;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav-box:hover {
+      transform: scale(1.04);
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: var(--azul-bandera);
+      color: var(--amarillo-bandera);
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 1rem;
+    }
+
+    /* Responsive en celulares */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      .nav-box {
+        flex: 1 1 100%;
+        font-size: 1.5rem;
+        min-height: 110px;
+        padding: 25px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Bandera.jpg" alt="Bandera de la República" />
+    <h1>La República</h1>
+  </header>
+
+  <main>
+    <div class="top-sections">
+      <a class="nav-box" href="politica.html">Política</a>
+      <a class="nav-box" href="economia.html">Economía</a>
+      <a class="nav-box" href="justicia.html">Justicia</a>
+    </div>
+    <div class="bottom-sections">
+      <a class="nav-box" href="gobierno.html">Gobierno y funcionarios actuales</a>
+      <a class="nav-box" href="relacionesinternacionales.html">Relaciones Internacionales</a>
+    </div>
+  </main>
+
+  <footer>
+    © La República – 2025
+  </footer>
+</body>
+</html>

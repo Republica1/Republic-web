@@ -8,20 +8,22 @@
     :root {
       --azul: rgb(38, 170, 255);
       --amarillo: rgb(253, 217, 0);
+      --blanco: #ffffff;
+      --negro: #000000;
     }
 
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background-color: var(--amarillo);
-      color: #000;
+      color: var(--negro);
     }
 
     header {
       background-color: var(--azul);
-      color: white;
-      text-align: center;
+      color: var(--blanco);
       padding: 20px;
+      text-align: center;
     }
 
     h1 {
@@ -31,25 +33,31 @@
 
     main {
       padding: 25px;
-      max-width: 900px;
+      max-width: 950px;
       margin: 0 auto;
-      background-color: white;
-      border: 2px solid black;
-      border-radius: 8px;
-      line-height: 1.6;
+      background-color: var(--blanco);
+      border-radius: 10px;
+      border: 2px solid var(--negro);
+      box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
-      margin-top: 25px;
       color: var(--azul);
+      margin-top: 40px;
       font-size: 1.8rem;
       border-bottom: 2px solid var(--azul);
       padding-bottom: 5px;
     }
 
+    p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
     footer {
       text-align: center;
-      margin: 25px;
+      margin: 30px;
     }
 
     .volver {
@@ -68,6 +76,10 @@
         font-size: 2rem;
       }
 
+      h2 {
+        font-size: 1.5rem;
+      }
+
       main {
         padding: 15px;
       }
@@ -80,74 +92,38 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>Historia</h1>
-  </header>
 
-  <main>
+<header>
+  <h1>Historia</h1>
+</header>
 
-    <h2>Fundación y origen del grupo</h2>
-    <p>
-      En 2024, los fundadores Micael, Máximo y Teseo crearon un grupo de amigos. El administrador era Teseo, por haberlo creado. A fines de ese año se fundó, dentro del grupo, Chota Prime, el torneo de papeadas, que trajo consigo varias peleas. Para evitarlas, Teseo instauró una monarquía con distintos cargos.
-    </p>
-    <p>
-      Todo continuó hasta marzo de 2025, cuando ocurrió una rebelión contra Teseo por el poder. Se eliminaron los cargos y grupos, salvo Chota Prime. Se creó otro grupo, pero como Teseo se negó a unirse, volvieron al original.
-    </p>
+<main>
 
-    <h2>Transición a República</h2>
-    <p>
-      Luego, la monarquía se transformó en una república, dando origen a la primera presidencia: la de Teseo.
-    </p>
+  <h2>Origen y fundación</h2>
+  <p>En 2024, los fundadores Micael, Máximo y Teseo crearon un grupo de amigos. El admin lo tenía Teseo, por haberlo creado. A fines de 2024 se crearía en ese grupo de amigos, Chota prime, el torneo de papeadas, que traería consigo peleas. Para evitar estas peleas Teseo creó una monarquía con diferentes cargos. Todo seguiría normal hasta 2025, marzo, donde habría una rebelión contra Teseo por el poder. Eliminaron los cargos y los grupos a excepción de Chota Prime. Crearon otro grupo pero Teseo se negó a unirse y volvieron al original. Luego de esto, se transformó la monarquía a una república, dando origen a la primera presidencia, la de Teseo.</p>
 
-    <h2>Primera expansión y conflicto</h2>
-    <p>
-      Tras el inicio de la República, se produjo una expansión que atrajo a mucha gente nueva. Esto llamó la atención del Sacro Imperio Papu, que envió espías para invadir. El gobierno se defendió y varios espías fueron expulsados. Poco después, Teseo renunció por motivos personales.
-    </p>
+  <h2>Primera expansión y guerras</h2>
+  <p>Después del inicio de la República se llevó a cabo la primera expansión, atrayendo mucha gente nueva. Esto atraería la atención del Sacro Imperio Papu y enviarían espías a invadirlo. El gobierno se defendió y varios espías fueron expulsados. Poco después, el presidente Teseo renunció a la presidencia por problemas personales. Milo quedó a cargo del gobierno y continuó la guerra con el Sacro Imperio Papu. El siguiente presidente fue Micael, que en vez de seguir con la guerra buscó la paz, aunque no logró concretar nada. Al final Micael fue denunciado por inactividad, perdiendo el juicio y siendo llevado a la cárcel.</p>
 
-    <h2>Presidencias de Milo y Micael</h2>
-    <p>
-      Milo asumió el gobierno y continuó la guerra. Luego fue presidente Micael, quien buscó la paz, pero no logró concretarla. Finalmente fue denunciado por inactividad, perdió el juicio y fue encarcelado.
-    </p>
+  <h2>Primera alianza con el Sacro Imperio Papu</h2>
+  <p>La cuarta presidencia fue ejercida por Máximo, con Teseo como vicepresidente. En esta presidencia inició la carrera política de Vicente, que era administrador de leyes (encargado de aprobar las reformas constitucionales). Los eventos más trascendentales de este gobierno fueron la alianza con el Sacro Imperio Papu y la cancelación de un proyecto de moneda republicana. La primera alianza entre la República y el Sacro Imperio Papu fue propuesta por el emperador Cat. En esta se comprometían ambos estados a no atacarse entre sí y defenderse, y la República adoptaría la PM (papu moneda). Este acuerdo recibió cambios y la República decidió aceptarla, pero sin adoptar la PM. Como resultado de esta alianza, la República se unió a la OCU.</p>
+  <p>Poco antes del final de la presidencia de Máximo, fue llevado a juicio por Milo. La denuncia era por inactividad y descontento del pueblo al haber cancelado la moneda republicana. Máximo ganó el juicio y su presidencia finalizó de forma regular.</p>
 
-    <h2>Gobierno de Máximo</h2>
-    <p>
-      La cuarta presidencia fue de Máximo, con Teseo como vicepresidente. En este periodo inició la carrera política de Vicente, como administrador de leyes. Se firmó una alianza con el Sacro Imperio Papu, propuesta por el emperador Cat. Ambos estados se comprometieron a no atacarse y defenderse mutuamente. La República aceptó el acuerdo sin adoptar la moneda papu (PM). Gracias a esto, se unió a la OCU.
-    </p>
-    <p>
-      Poco antes del final del mandato, Milo denunció a Máximo por inactividad y descontento popular. Máximo ganó el juicio y finalizó su presidencia normalmente.
-    </p>
+  <h2>Ataque terrorista, primera presidencia de Vicente, y surgimiento del Papa Partido</h2>
+  <p>La quinta presidencia fue ejercida por el partido de Teseo, el Tesismo. Luquitas (miembro del Sacro Imperio Papu) era el presidente, y Vicente el vicepresidente. En esta presidencia se creó el senado, que posteriormente reemplazaría al administrador de leyes.</p>
+  <p>Antes de poder ejecutar la mayoría de propuestas del Tesismo, un evento inesperado sacudió a toda la República. Fer, antiguo espía expulsado, que había sido perdonado, reveló capturas donde él, Luquitas y Fidel, planeaban un ataque a la República, a través del admin de la comunidad, en manos de Luquitas. Luego de la revelación, Fidel inició un raideo en solitario y todos los involucrados con el atentado fueron expulsados. Luego de esto, asumió Vicente como presidente.</p>
+  <p>Vicente tenía la tarea de levantar la República luego del atentado, y dedicó gran parte de su presidencia a enjuiciar a los criminales, a fin de obtener penas justas en el Sacro Imperio Papu. Logró exitosamente esto, llevando a cabo un espectacular juicio en el Sacro Imperio Papu. Además, arregló las relaciones con el Sacro Imperio Papu, ya que era consciente de que el atentado fue de miembros particulares y no un ataque del imperio en conjunto.</p>
+  <p>Durante el transcurso de su presidencia, se mostraron ciertos conflictos internos en el Tesismo, y Vicente se desligó de este, formando su propio partido, el Papa Partido, con Gonzalo y Andrés como socios, iniciando sus carreras políticas. Además generó varias leyes de protección e igualdad entre ciudadanos, tanto republicanos como imperiales.</p>
 
-    <h2>Tesismo y traición</h2>
-    <p>
-      La quinta presidencia fue del partido de Teseo, el Tesismo. Luquitas (del Sacro Imperio Papu) fue presidente y Vicente vicepresidente. Se creó el Senado, reemplazando al administrador de leyes. Sin embargo, Fer (exespía perdonado) reveló capturas en las que él, Luquitas y Fidel planeaban un ataque, aprovechando que Luquitas era el admin.
-    </p>
-    <p>
-      Luego de la revelación, Fidel inició un raideo solo y todos los implicados fueron expulsados.
-    </p>
+  <h2>Segunda presidencia de Vicente</h2>
+  <p>Para la sexta presidencia, el Papa Partido se postuló con grandes propuestas: la mayoría relacionadas con juegos, pero principalmente, el surgimiento de una moneda, la PMR (Papu moneda republicana), la cual impulsaría de gran manera la República.</p>
+  <p>La victoria del Papa Partido fue clara apenas a una hora del inicio de elecciones, pero se dieron ciertas peleas por esta. Durante la pelea, Teseo acusó de corrupción al Papa Partido, pero no tenía pruebas que lo demostraran. Posteriormente fue llevado a juicio por difamación y sentenciado a 5 días de ban. Actualmente la presidencia de Vicente se encuentra en curso y ya ha sacado la PMR.</p>
 
-    <h2>Gobierno de Vicente</h2>
-    <p>
-      Vicente asumió la presidencia con la misión de reconstruir la República. Enjuició a los responsables y logró que el Sacro Imperio Papu impusiera sanciones justas. Además, reparó las relaciones diplomáticas al reconocer que el ataque no fue institucional.
-    </p>
-    <p>
-      En medio de su gestión, Vicente se distanció del Tesismo y fundó su partido: el Papa Partido, junto con Gonzalo y Andrés. También impulsó leyes de protección e igualdad entre ciudadanos, tanto republicanos como imperiales.
-    </p>
+</main>
 
-    <h2>La PMR y segunda presidencia de Vicente</h2>
-    <p>
-      Para la sexta presidencia, el Papa Partido se presentó con propuestas enfocadas en juegos y en especial en una nueva moneda: la PMR (Papu Moneda Republicana), que impulsaría la economía.
-    </p>
-    <p>
-      La victoria del partido fue clara, aunque hubo disputas. Teseo acusó de corrupción sin pruebas y fue juzgado por difamación, recibiendo 5 días de ban.
-    </p>
-    <p>
-      Actualmente, Vicente continúa en el poder y ya ha implementado la PMR.
-    </p>
+<footer>
+  <a class="volver" href="index.html">Volver al menú principal</a>
+</footer>
 
-  </main>
-
-  <footer>
-    <a class="volver" href="index.html">Volver al menú principal</a>
-  </footer>
 </body>
 </html>
